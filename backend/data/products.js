@@ -1,0 +1,102 @@
+const products = [
+  {
+    name: "Ultrabook Pro 14",
+    price: 79999,
+    description: "Lightweight performance laptop with 14\" QHD display",
+    stock: 12,
+    image: "https://m.media-amazon.com/images/I/510uTHyDqGL.jpg",
+  },
+  {
+    name: "Smartphone X2",
+    price: 34999,
+    description: "Flagship camera, AMOLED 120Hz, 5G",
+    stock: 20,
+    image: "https://m.media-amazon.com/images/I/71v2jVh6nIL._UF1000,1000_QL80_.jpg",
+  },
+  {
+    name: "Wireless ANC Headphones",
+    price: 6999,
+    description: "Over‑ear, active noise cancellation, 30h battery",
+    stock: 30,
+    image: "https://m.media-amazon.com/images/I/517lSvEVVsL._UF1000,1000_QL80_.jpg",
+  },
+  {
+    name: "Gaming Mouse RGB",
+    price: 1999,
+    description: "Ergonomic 7‑button mouse with 16K DPI sensor",
+    stock: 50,
+    image: "https://m.media-amazon.com/images/I/41hYQ9J7gCL._SR290,290_.jpg",
+  },
+  {
+    name: "Mechanical Keyboard",
+    price: 4999,
+    description: "Hot‑swappable brown switches, white backlight",
+    stock: 25,
+    image: "https://m.media-amazon.com/images/I/614sOhHCEkL._UF1000,1000_QL80_.jpg",
+  },
+  {
+    name: "4K Action Camera",
+    price: 15999,
+    description: "Waterproof, gyro stabilization, 4K60",
+    stock: 18,
+    image: "https://m.media-amazon.com/images/I/41PfbBJIliL._SR290,290_.jpg",
+  },
+  {
+    name: "Smartwatch S",
+    price: 9999,
+    description: "AMOLED, SpO2, GPS, 10‑day battery",
+    stock: 40,
+    image: "https://m.media-amazon.com/images/I/510uTHyDqGL.jpg",
+  },
+  {
+    name: "Bluetooth Speaker Mini",
+    price: 2499,
+    description: "Portable IPX7 speaker with deep bass",
+    stock: 60,
+    image: "https://m.media-amazon.com/images/I/510uTHyDqGL.jpg",
+  },
+  {
+    name: "27\" 144Hz Monitor",
+    price: 21999,
+    description: "IPS panel, 1ms response, height adjustable",
+    stock: 15,
+    image: " ",
+  },
+  {
+    name: "Mirrorless Camera Kit",
+    price: 54999,
+    description: "24MP APS‑C with 15‑45mm lens",
+    stock: 10,
+    image: " "
+  },
+  {
+    name: "Tablet 10\" LTE",
+    price: 17999,
+    description: "10.4\" display, quad speakers, LTE",
+    stock: 22,
+    image: " ",
+  },
+  {
+    name: "Noise Cancelling Earbuds",
+    price: 3999,
+    description: "Hybrid ANC, transparency mode, 24h total",
+    stock: 70,
+    image: " ",
+  },
+  {
+    name: "Wi‑Fi 6 Router",
+    price: 6999,
+    description: "Dual‑band AX1800 with MU‑MIMO",
+    stock: 35,
+    image: " ",
+  },
+  {
+    name: "Portable SSD 1TB",
+    price: 7999,
+    description: "USB‑C NVMe up to 1,050MB/s",
+    stock: 28,
+    image: " ",
+  },
+];
+
+module.exports = products;
